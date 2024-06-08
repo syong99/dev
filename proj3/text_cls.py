@@ -10,7 +10,7 @@ from transformers import pipeline
 classifier = pipeline("sentiment-analysis", model="snunlp/KR-FinBert-SC") # task 네임 와 model(hugging face 에 검색하면 나오고 설명도 나온다.)
 
 # STEP 3. prepare input data
-text = "삼성전자 주가가 하락했다."
+text = "실적이 안좋다."
 
 # STEP 4
 # inputs = tokenizer(text, return_tensors="pt")
